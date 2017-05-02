@@ -229,7 +229,7 @@ class Admin extends X2ActiveRecord {
                 . 'ignoreUpdates, rrId, onlineOnly, emailBatchSize, emailInterval, emailPort, '
                 . 'installDate, updateDate, updateInterval, workflowBackdateWindow, '
                 . 'workflowBackdateRange, locationTrackingDistance',
-                'numerical', 'integerOnly' => true),
+                'numerical', 'integerOnly' => true), 
             // accounts, sales,
             array('loginCredsTimeout', 'numerical', 'max' => 365, 'min' => 1),
             array('chatPollTime', 'numerical', 'max' => 100000, 'min' => 100),
